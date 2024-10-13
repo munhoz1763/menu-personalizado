@@ -1,0 +1,143 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header {
+    width: 100%;
+    padding: 60px 4%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    transition: .5s;
+    transition: background-color 0.3s ease;
+}
+
+header i {
+    font-size: 30px;
+    color: #e5ff00;
+    text-shadow: 1px 1px 2px black;
+
+}
+
+header ul {
+    list-style-type: none;
+}
+
+header ul li {
+    display: inline-block;
+    margin: 0 40px;
+
+}
+
+header ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+    text-shadow: 1px 1px 2px black;
+
+}
+
+header.rolagem {
+    background-color: #ffffff;
+    padding: 20px 4%;
+}
+
+header.rolagem a {
+    color: #e5ff00;
+}
+
+.btn-contato button {
+
+    width: 120px;
+    height: 40px;
+    border: 0;
+    cursor: pointer;
+    background-color: #FFD700;
+    transition: .2s;
+    text-shadow: 1px 1px 2px white;
+    border-radius: 10px;
+
+}
+
+
+
+section#primeiro.banner {
+    height: 100vh;
+    background-image: url(image/imagem-banner.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+section#segundo.banner {
+    height: 100vh;
+    background-image: url(image/imagem-banner2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+section#terceiro.banner {
+    height: 100vh;
+    background-image: url(image/imagem-banner3.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+
+
+
+.banner h1 {
+    font-size: 4em;
+    text-shadow: 1px 1px 2px white;
+
+}
+
+.banner span {
+    color: #FFD700;
+    text-shadow: 1px 1px 2px black;
+
+
+}
